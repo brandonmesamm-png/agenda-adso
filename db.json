@@ -1,0 +1,32 @@
+{
+  "contactos": [
+    {
+      "id": "4fa9",
+      "nombre": "Sebastian",
+      "telefono": "3023787213",
+      "correo": "sehuto96@gmail.com",
+      "etiqueta": "Mio"
+    },
+    {
+      "id": "b28b",
+      "nombre": "Kevin Marin",
+      "telefono": "3022369471",
+      "correo": "kevin@gmail.com",
+      "etiqueta": "Compañero"
+    },
+    {
+      "id": "d117",
+      "nombre": "carlos Z",
+      "telefono": "3108218893",
+      "correo": "mamitascalientes@edu.co",
+      "etiqueta": ""
+    },
+    {
+      "id": "5c21",
+      "nombre": "carlos",
+      "telefono": "3109992345",
+      "correo": "carlos@gmail.com",
+      "etiqueta": ""
+    }
+  ]
+}

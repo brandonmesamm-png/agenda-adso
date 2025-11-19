@@ -1,31 +1,21 @@
-export default function ContactoCard({
-  nombre,
-  telefono,
-  correo,
-  etiqueta,
-  onEliminar,
-}) {
+function ContactoCard({ nombre, telefono, correo, etiqueta, onEliminar }) {
   return (
-    <article className="bg-white rounded-xl border border-gray-200 shadow-sm p-4">
-      <h3 className="text-lg font-semibold text-gray-900">{nombre}</h3>
-
-      <div className="mt-2 space-y-1 text-sm text-gray-700">
-        <p>📞 {telefono}</p>
-        <p>✉️ {correo}</p>
-        {etiqueta && (
-          <span className="inline-block text-xs bg-gray-100 text-gray-700 px-2 py-0.5 rounded-full">
-            {etiqueta}
-          </span>
-        )}
+    <div className="bg-white p-4 rounded-2xl shadow-sm flex justify-between items-center">
+      <div>
+        <p className="text-lg font-semibold">{nombre}</p>
+        <p className="text-sm text-gray-600">{telefono}</p>
+        <p className="text-sm text-gray-600">{correo}</p>
+        {etiqueta && <p className="text-xs text-purple-600">{etiqueta}</p>}
       </div>
 
       <button
-        onClick={() => onEliminar(correo)}
-        className="mt-3 bg-red-500 hover:bg-red-600 text-white text-sm
-        px-3 py-1.5 rounded-lg transition"
+        className="text-red-500 font-semibold hover:text-red-700"
+        onClick={onEliminar}
       >
         Eliminar
       </button>
-    </article>
+    </div>
   );
 }
+
+export default ContactoCard;
