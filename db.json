@@ -1,31 +1,17 @@
 {
   "contactos": [
     {
-      "id": "4fa9",
-      "nombre": "Sebastian",
-      "telefono": "3023787213",
-      "correo": "sehuto96@gmail.com",
-      "etiqueta": "Mio"
-    },
-    {
-      "id": "b28b",
-      "nombre": "Kevin Marin",
-      "telefono": "3022369471",
-      "correo": "kevin@gmail.com",
-      "etiqueta": "Compañero"
-    },
-    {
-      "id": "d117",
+      "id": "4eba",
       "nombre": "carlos Z",
-      "telefono": "3108218893",
-      "correo": "mamitascalientes@edu.co",
+      "telefono": "3109992345",
+      "correo": "luis.david.villero.barrios@gmail.com",
       "etiqueta": ""
     },
     {
-      "id": "5c21",
-      "nombre": "carlos",
-      "telefono": "3109992345",
-      "correo": "carlos@gmail.com",
+      "id": "f6a1",
+      "nombre": "brandon",
+      "telefono": "3128021399",
+      "correo": "carlos@gamil.com",
       "etiqueta": ""
     }
   ]
