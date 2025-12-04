@@ -1,5 +1,5 @@
 // Configuración global de Agenda ADSO
-export const API_BASE_URL = "http://localhost:3002/contactos";
+export const API_BASE_URL = "https://agenda-adso-api-hwoj.onrender.com/contactos";
 
 export const APP_INFO = {
   ficha: "3223876",
